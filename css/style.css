@@ -194,7 +194,7 @@ h1{
         display: inline;
         position: fixed;
         top: 4.4rem;
-        height: auto;
+        height: 100%;
     }
 }
 @media (max-width:928px){
@@ -213,3 +213,13 @@ h1{
     border: solid darkgray;
     border-radius: 10px;
 }
+
+ .sidebar{
+        display: none;
+    }
+    .show-sidebar{
+        display: inline;
+        position: fixed;
+        top: 4.4rem;
+        height: 100%;
+    }
